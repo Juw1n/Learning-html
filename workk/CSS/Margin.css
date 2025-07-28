@@ -1,0 +1,25 @@
+#margin1{
+  border: 10px;
+  border: 5px solid hsl(213, 90%, 88%)
+  }
+  #margin2{
+  border: 10px 20px
+}
+#margin3{
+  border: 10px 20px 30px;
+  }
+#margin4{
+  border: 10px 20px 30px 40px;
+} 
+.spanbox{
+  border: 1px dashed purple;
+  margin:5px;
+  float: left;
+}
+span{
+  background-color:violet;
+  border: 5px solid hsl(213, 90%, 88%);
+  padding:10px 20px;
+  font-family: monospace ;
+  text-align: left
+}

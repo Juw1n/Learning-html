@@ -1,0 +1,49 @@
+span{
+  background-color: plum;
+  border: 5px solid green;
+}
+div{
+  padding: 20px;
+}
+#padding1{
+padding: 5px;
+}
+#padding2{
+  padding: 4px 10px;
+}
+#padding3{
+  padding: 4px 10px 20px;
+}
+#padding4{
+  padding-top: 5px ;
+  padding-right: 2p; 
+  padding-bottom: 40px;    
+  padding-left: 15px;
+}
+/* Manipulating CSS Border  */
+#border1{
+  border: 5px dotted plum
+}
+  #border2{
+    border:9px double blue;
+  }
+#border3{
+  border: 11px solid green;
+}
+#border4{
+  border: 11px groove violet;
+}
+/* CSS Border Radius */
+h1{
+  border:7px solid black;
+  border-color: #696cff;
+  padding: 10px
+}
+.rounded{
+border-radius:60px;
+border-color: #696cff
+}
+.eliptical{
+  border-radius: 50px/ 25px;
+  border-color: #696cff
+}

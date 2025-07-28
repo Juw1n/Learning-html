@@ -1,0 +1,24 @@
+j{
+  color:red;
+  margin-left: 20px;
+}
+
+/* Selecting multiple HTML element types */
+h2, p {
+  border: 1px solid black
+}
+  /* Selecting styles to be applied to several classes */
+.p, .j {
+  font-size: 1.2em;
+}
+ /* Using multiple kinds of selectors*/
+#j,.k, h2 {
+color:#696cff;
+}
+
+/* doesnt apply to the html file  */
+/* The ~ element selects all <p> elements that are next siblings of <div> elements  */
+div ~ p {
+  background-color: #696cff;
+  color: white;
+}

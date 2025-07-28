@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<head>
+  <title> Changing Html Buttons</title>
+  <style>
+    /* for id= # ,type= , class=. */
+    .button{
+      border:none;
+      color:white;
+       padding: 16px 32px;
+       font-size: 16px;
+       background-color: blueviolet;
+       border-radius: 5px;
+    }
+.button:hover{
+background-color: white;
+color: black;
+border: 2px solid green;
+}
+
+  </style>
+</head>
+<body>
+  <button class="button" type="button"> Submit</button>
+  <button class="reset" type="button2"> Reset</button>  
+</body>
+
+
+<!-- <select> to create drop-down menu of items users can pick  -->
+  <body>
+    <fieldset>
+        <legend>
+    <h1>Tesla Auto Company</h1>
+  </legend>
+        <p>Kindly elect any car from this drop-down list.</p>
+    
+    <form>
+      <label for="cars">Choose a car:</label>
+      <select name="cars" id="cars">
+        <option value="volvo">Volvo</option>
+        <option value="lexus">Lexus</option>
+        <option value="tesla">Tesla</option>
+        <option value="audi">Audi</option>
+      </select>
+      <!-- <br> represents a line break  -->
+      <br><br>
+      <input type="submit" value="Submit">
+    </form>
+    <p>We will bring you any car of your choice upon clicking submit </p>
+    </fieldset>
+    </body>
+    </html>
+    
